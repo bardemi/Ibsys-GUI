@@ -36,7 +36,10 @@ namespace Ibsys_GUI
                 input = (results)obj;
 
                 dataGridView1.DataSource = input.warehousestock.article;
-                dataGridView2.DataSource = input.waitinglistworkstations;
+                dataGridView3.DataSource = input.warehousestock.totalstockvalue[0];
+                dataGridView2.DataSource = input.futureinwardstockmovement;
+                dataGridView4.DataSource = input.waitinglistworkstations;
+                
                 
             }
 
@@ -51,5 +54,17 @@ namespace Ibsys_GUI
         {
 
         }
+
+        private void dataGridView3_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void dataGridView4_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        
     }
 }
