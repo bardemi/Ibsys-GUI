@@ -36,7 +36,7 @@ namespace Ibsys_GUI
                 input = (results)obj;
 
                 dataGridView1.DataSource = input.warehousestock.article;
-                dataGridView3.DataSource = input.warehousestock.totalstockvalue[0];
+                
                 dataGridView2.DataSource = input.futureinwardstockmovement;
                 dataGridView4.DataSource = input.waitinglistworkstations;
                 

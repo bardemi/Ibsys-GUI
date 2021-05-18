@@ -1,4 +1,4 @@
-﻿namespace Ibsys2.Entity
+﻿namespace Ibsys_GUI.Entity.Classes
 {
     public class defectivegoods
     {

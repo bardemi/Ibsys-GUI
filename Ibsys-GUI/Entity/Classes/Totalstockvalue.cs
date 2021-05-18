@@ -5,17 +5,16 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Serialization;
 
-namespace Ibsys2.Entity
+namespace Ibsys_GUI.Entity.Classes
 {
-    class Waitinglistworkstations
+    class Totalstockvalue
     {
 		// ELEMENTS
-		[XmlElement("workplace")]
-		public List<Workplace> workplaces { get; set; }
+		[XmlText]
+		public decimal Value { get; set; }
 
-		
 		// CONSTRUCTOR
-		public Waitinglistworkstations()
+		public Totalstockvalue()
 		{ }
 	}
 }

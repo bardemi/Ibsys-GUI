@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Serialization;
 
-namespace Ibsys2.Entity
+namespace Ibsys_GUI.Entity.Classes
 {
     class Warehousestock
     {

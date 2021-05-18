@@ -5,15 +5,15 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Serialization;
 
-namespace Ibsys2.Entity
+namespace Ibsys_GUI.Entity.Classes
 {
-    class Futureinwardstockmovement
+    class Inwardstockmovement
     {
         // ELEMENTS
         [XmlElement("order")]
-        public List<Futureinwardstockmovement> futureinwardstockmovements { get; set; }
+        public List<Inwardstockmovementorder> inwardstockmovementorders { get; set; }
 
-        public Futureinwardstockmovement()
+        public Inwardstockmovement()
         { }
     }
 }

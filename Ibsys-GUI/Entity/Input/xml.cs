@@ -301,7 +301,7 @@ namespace Ibsys_GUI.Entity.Input
 
         private resultsWarehousestockArticle[] articleField;
 
-        private string totalstockvalueField;
+        private decimal totalstockvalueField;
 
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("article")]
@@ -318,7 +318,7 @@ namespace Ibsys_GUI.Entity.Input
         }
 
         /// <remarks/>
-        public string totalstockvalue
+        public decimal totalstockvalue
         {
             get
             {
@@ -344,11 +344,11 @@ namespace Ibsys_GUI.Entity.Input
 
         private ushort startamountField;
 
-        private string pctField;
+        private decimal pctField;
 
-        private string priceField;
+        private decimal priceField;
 
-        private string stockvalueField;
+        private decimal stockvalueField;
 
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute()]
@@ -394,7 +394,7 @@ namespace Ibsys_GUI.Entity.Input
 
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string pct
+        public decimal pct
         {
             get
             {
@@ -408,7 +408,7 @@ namespace Ibsys_GUI.Entity.Input
 
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string price
+        public decimal price
         {
             get
             {
@@ -422,7 +422,7 @@ namespace Ibsys_GUI.Entity.Input
 
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string stockvalue
+        public decimal stockvalue
         {
             get
             {
@@ -454,13 +454,13 @@ namespace Ibsys_GUI.Entity.Input
 
         private ushort timeField;
 
-        private string materialcostsField;
+        private decimal materialcostsField;
 
-        private string ordercostsField;
+        private decimal ordercostsField;
 
-        private string entirecostsField;
+        private decimal entirecostsField;
 
-        private string piececostsField;
+        private decimal piececostsField;
 
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute()]
@@ -548,7 +548,7 @@ namespace Ibsys_GUI.Entity.Input
 
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string materialcosts
+        public decimal materialcosts
         {
             get
             {
@@ -562,7 +562,7 @@ namespace Ibsys_GUI.Entity.Input
 
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string ordercosts
+        public decimal ordercosts
         {
             get
             {
@@ -576,7 +576,7 @@ namespace Ibsys_GUI.Entity.Input
 
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string entirecosts
+        public decimal entirecosts
         {
             get
             {
@@ -590,7 +590,7 @@ namespace Ibsys_GUI.Entity.Input
 
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string piececosts
+        public decimal piececosts
         {
             get
             {
@@ -743,11 +743,11 @@ namespace Ibsys_GUI.Entity.Input
 
         private ushort idletimeField;
 
-        private string wageidletimecostsField;
+        private decimal wageidletimecostsField;
 
-        private string wagecostsField;
+        private decimal wagecostsField;
 
-        private string machineidletimecostsField;
+        private decimal machineidletimecostsField;
 
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute()]
@@ -793,7 +793,7 @@ namespace Ibsys_GUI.Entity.Input
 
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string wageidletimecosts
+        public decimal wageidletimecosts
         {
             get
             {
@@ -807,7 +807,7 @@ namespace Ibsys_GUI.Entity.Input
 
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string wagecosts
+        public decimal wagecosts
         {
             get
             {
@@ -821,7 +821,7 @@ namespace Ibsys_GUI.Entity.Input
 
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string machineidletimecosts
+        public decimal machineidletimecosts
         {
             get
             {
@@ -845,11 +845,11 @@ namespace Ibsys_GUI.Entity.Input
 
         private ushort idletimeField;
 
-        private string wageidletimecostsField;
+        private decimal wageidletimecostsField;
 
-        private string wagecostsField;
+        private decimal wagecostsField;
 
-        private string machineidletimecostsField;
+        private decimal machineidletimecostsField;
 
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute()]
@@ -881,7 +881,7 @@ namespace Ibsys_GUI.Entity.Input
 
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string wageidletimecosts
+        public decimal wageidletimecosts
         {
             get
             {
@@ -895,7 +895,7 @@ namespace Ibsys_GUI.Entity.Input
 
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string wagecosts
+        public decimal wagecosts
         {
             get
             {
@@ -909,7 +909,7 @@ namespace Ibsys_GUI.Entity.Input
 
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string machineidletimecosts
+        public decimal machineidletimecosts
         {
             get
             {
@@ -1259,9 +1259,9 @@ namespace Ibsys_GUI.Entity.Input
 
         private ushort quantityField;
 
-        private string costField;
+        private decimal costField;
 
-        private string averageunitcostsField;
+        private decimal averageunitcostsField;
 
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("batch")]
@@ -1335,7 +1335,7 @@ namespace Ibsys_GUI.Entity.Input
 
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string cost
+        public decimal cost
         {
             get
             {
@@ -1349,7 +1349,7 @@ namespace Ibsys_GUI.Entity.Input
 
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string averageunitcosts
+        public decimal averageunitcosts
         {
             get
             {
@@ -1375,7 +1375,7 @@ namespace Ibsys_GUI.Entity.Input
 
         private ushort cycletimeField;
 
-        private string costField;
+        private decimal costField;
 
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute()]
@@ -1421,7 +1421,7 @@ namespace Ibsys_GUI.Entity.Input
 
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string cost
+        public decimal cost
         {
             get
             {
@@ -1501,13 +1501,13 @@ namespace Ibsys_GUI.Entity.Input
 
         private byte periodField;
 
-        private string starttimeField;
+        private decimal starttimeField;
 
-        private string finishtimeField;
+        private decimal finishtimeField;
 
         private ushort cycletimeminField;
 
-        private string cycletimefactorField;
+        private decimal cycletimefactorField;
 
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute()]
@@ -1539,7 +1539,7 @@ namespace Ibsys_GUI.Entity.Input
 
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string starttime
+        public decimal starttime
         {
             get
             {
@@ -1553,7 +1553,7 @@ namespace Ibsys_GUI.Entity.Input
 
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string finishtime
+        public decimal finishtime
         {
             get
             {
@@ -1581,7 +1581,7 @@ namespace Ibsys_GUI.Entity.Input
 
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string cycletimefactor
+        public decimal cycletimefactor
         {
             get
             {
@@ -1889,7 +1889,7 @@ namespace Ibsys_GUI.Entity.Input
 
         private ushort currentField;
 
-        private string averageField;
+        private decimal averageField;
 
         private ushort allField;
 
@@ -1909,7 +1909,7 @@ namespace Ibsys_GUI.Entity.Input
 
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string average
+        public decimal average
         {
             get
             {
@@ -1945,7 +1945,7 @@ namespace Ibsys_GUI.Entity.Input
 
         private ushort currentField;
 
-        private string averageField;
+        private decimal averageField;
 
         private ushort allField;
 
@@ -1965,7 +1965,7 @@ namespace Ibsys_GUI.Entity.Input
 
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string average
+        public decimal average
         {
             get
             {
@@ -1999,15 +1999,15 @@ namespace Ibsys_GUI.Entity.Input
     public partial class resultsResultGeneralRelpossiblenormalcapacity
     {
 
-        private string currentField;
+        private decimal currentField;
 
-        private string averageField;
+        private decimal averageField;
 
-        private string allField;
+        private decimal allField;
 
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string current
+        public decimal current
         {
             get
             {
@@ -2021,7 +2021,7 @@ namespace Ibsys_GUI.Entity.Input
 
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string average
+        public decimal average
         {
             get
             {
@@ -2035,7 +2035,7 @@ namespace Ibsys_GUI.Entity.Input
 
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string all
+        public decimal all
         {
             get
             {
@@ -2057,7 +2057,7 @@ namespace Ibsys_GUI.Entity.Input
 
         private ushort currentField;
 
-        private string averageField;
+        private decimal averageField;
 
         private ushort allField;
 
@@ -2077,7 +2077,7 @@ namespace Ibsys_GUI.Entity.Input
 
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string average
+        public decimal average
         {
             get
             {
@@ -2111,15 +2111,15 @@ namespace Ibsys_GUI.Entity.Input
     public partial class resultsResultGeneralEffiency
     {
 
-        private string currentField;
+        private decimal currentField;
 
-        private string averageField;
+        private decimal averageField;
 
-        private string allField;
+        private decimal allField;
 
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string current
+        public decimal current
         {
             get
             {
@@ -2133,7 +2133,7 @@ namespace Ibsys_GUI.Entity.Input
 
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string average
+        public decimal average
         {
             get
             {
@@ -2147,7 +2147,7 @@ namespace Ibsys_GUI.Entity.Input
 
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string all
+        public decimal all
         {
             get
             {
@@ -2169,7 +2169,7 @@ namespace Ibsys_GUI.Entity.Input
 
         private ushort currentField;
 
-        private string averageField;
+        private decimal averageField;
 
         private ushort allField;
 
@@ -2189,7 +2189,7 @@ namespace Ibsys_GUI.Entity.Input
 
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string average
+        public decimal average
         {
             get
             {
@@ -2225,7 +2225,7 @@ namespace Ibsys_GUI.Entity.Input
 
         private ushort currentField;
 
-        private string averageField;
+        private decimal averageField;
 
         private ushort allField;
 
@@ -2245,7 +2245,7 @@ namespace Ibsys_GUI.Entity.Input
 
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string average
+        public decimal average
         {
             get
             {
@@ -2279,15 +2279,15 @@ namespace Ibsys_GUI.Entity.Input
     public partial class resultsResultGeneralDeliveryreliability
     {
 
-        private string currentField;
+        private decimal currentField;
 
-        private string averageField;
+        private decimal averageField;
 
-        private string allField;
+        private decimal allField;
 
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string current
+        public decimal current
         {
             get
             {
@@ -2301,7 +2301,7 @@ namespace Ibsys_GUI.Entity.Input
 
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string average
+        public decimal average
         {
             get
             {
@@ -2315,7 +2315,7 @@ namespace Ibsys_GUI.Entity.Input
 
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string all
+        public decimal all
         {
             get
             {
@@ -2337,7 +2337,7 @@ namespace Ibsys_GUI.Entity.Input
 
         private ushort currentField;
 
-        private string averageField;
+        private decimal averageField;
 
         private ushort allField;
 
@@ -2357,7 +2357,7 @@ namespace Ibsys_GUI.Entity.Input
 
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string average
+        public decimal average
         {
             get
             {
@@ -2391,15 +2391,15 @@ namespace Ibsys_GUI.Entity.Input
     public partial class resultsResultGeneralIdletimecosts
     {
 
-        private string currentField;
+        private decimal currentField;
 
-        private string averageField;
+        private decimal averageField;
 
-        private string allField;
+        private decimal allField;
 
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string current
+        public decimal current
         {
             get
             {
@@ -2413,7 +2413,7 @@ namespace Ibsys_GUI.Entity.Input
 
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string average
+        public decimal average
         {
             get
             {
@@ -2427,7 +2427,7 @@ namespace Ibsys_GUI.Entity.Input
 
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string all
+        public decimal all
         {
             get
             {
@@ -2447,15 +2447,15 @@ namespace Ibsys_GUI.Entity.Input
     public partial class resultsResultGeneralStorevalue
     {
 
-        private string currentField;
+        private decimal currentField;
 
-        private string averageField;
+        private decimal averageField;
 
-        private string allField;
+        private decimal allField;
 
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string current
+        public decimal current
         {
             get
             {
@@ -2469,7 +2469,7 @@ namespace Ibsys_GUI.Entity.Input
 
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string average
+        public decimal average
         {
             get
             {
@@ -2483,7 +2483,7 @@ namespace Ibsys_GUI.Entity.Input
 
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string all
+        public decimal all
         {
             get
             {
@@ -2503,15 +2503,15 @@ namespace Ibsys_GUI.Entity.Input
     public partial class resultsResultGeneralStoragecosts
     {
 
-        private string currentField;
+        private decimal currentField;
 
-        private string averageField;
+        private decimal averageField;
 
-        private string allField;
+        private decimal allField;
 
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string current
+        public decimal current
         {
             get
             {
@@ -2525,7 +2525,7 @@ namespace Ibsys_GUI.Entity.Input
 
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string average
+        public decimal average
         {
             get
             {
@@ -2539,7 +2539,7 @@ namespace Ibsys_GUI.Entity.Input
 
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string all
+        public decimal all
         {
             get
             {
@@ -2599,7 +2599,7 @@ namespace Ibsys_GUI.Entity.Input
 
         private byte currentField;
 
-        private string averageField;
+        private decimal averageField;
 
         private byte allField;
 
@@ -2619,7 +2619,7 @@ namespace Ibsys_GUI.Entity.Input
 
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string average
+        public decimal average
         {
             get
             {
@@ -2653,15 +2653,15 @@ namespace Ibsys_GUI.Entity.Input
     public partial class resultsResultDefectivegoodsCosts
     {
 
-        private string currentField;
+        private decimal currentField;
 
-        private string averageField;
+        private decimal averageField;
 
-        private string allField;
+        private decimal allField;
 
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string current
+        public decimal current
         {
             get
             {
@@ -2675,7 +2675,7 @@ namespace Ibsys_GUI.Entity.Input
 
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string average
+        public decimal average
         {
             get
             {
@@ -2689,7 +2689,7 @@ namespace Ibsys_GUI.Entity.Input
 
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string all
+        public decimal all
         {
             get
             {
@@ -2762,15 +2762,15 @@ namespace Ibsys_GUI.Entity.Input
     public partial class resultsResultNormalsaleSalesprice
     {
 
-        private string currentField;
+        private decimal currentField;
 
-        private string averageField;
+        private decimal averageField;
 
-        private string allField;
+        private decimal allField;
 
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string current
+        public decimal current
         {
             get
             {
@@ -2784,7 +2784,7 @@ namespace Ibsys_GUI.Entity.Input
 
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string average
+        public decimal average
         {
             get
             {
@@ -2798,7 +2798,7 @@ namespace Ibsys_GUI.Entity.Input
 
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string all
+        public decimal all
         {
             get
             {
@@ -2818,15 +2818,15 @@ namespace Ibsys_GUI.Entity.Input
     public partial class resultsResultNormalsaleProfit
     {
 
-        private string currentField;
+        private decimal currentField;
 
-        private string averageField;
+        private decimal averageField;
 
-        private string allField;
+        private decimal allField;
 
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string current
+        public decimal current
         {
             get
             {
@@ -2840,7 +2840,7 @@ namespace Ibsys_GUI.Entity.Input
 
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string average
+        public decimal average
         {
             get
             {
@@ -2854,7 +2854,7 @@ namespace Ibsys_GUI.Entity.Input
 
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string all
+        public decimal all
         {
             get
             {
@@ -2874,15 +2874,15 @@ namespace Ibsys_GUI.Entity.Input
     public partial class resultsResultNormalsaleProfitperunit
     {
 
-        private string currentField;
+        private decimal currentField;
 
-        private string averageField;
+        private decimal averageField;
 
-        private string allField;
+        private decimal allField;
 
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string current
+        public decimal current
         {
             get
             {
@@ -2896,7 +2896,7 @@ namespace Ibsys_GUI.Entity.Input
 
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string average
+        public decimal average
         {
             get
             {
@@ -2910,7 +2910,7 @@ namespace Ibsys_GUI.Entity.Input
 
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string all
+        public decimal all
         {
             get
             {
@@ -2968,15 +2968,15 @@ namespace Ibsys_GUI.Entity.Input
     public partial class resultsResultDirectsaleProfit
     {
 
-        private string currentField;
+        private decimal currentField;
 
-        private string averageField;
+        private decimal averageField;
 
-        private string allField;
+        private decimal allField;
 
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string current
+        public decimal current
         {
             get
             {
@@ -2990,7 +2990,7 @@ namespace Ibsys_GUI.Entity.Input
 
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string average
+        public decimal average
         {
             get
             {
@@ -3004,7 +3004,7 @@ namespace Ibsys_GUI.Entity.Input
 
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string all
+        public decimal all
         {
             get
             {
@@ -3024,15 +3024,15 @@ namespace Ibsys_GUI.Entity.Input
     public partial class resultsResultDirectsaleContractpenalty
     {
 
-        private string currentField;
+        private decimal currentField;
 
-        private string averageField;
+        private decimal averageField;
 
-        private string allField;
+        private decimal allField;
 
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string current
+        public decimal current
         {
             get
             {
@@ -3046,7 +3046,7 @@ namespace Ibsys_GUI.Entity.Input
 
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string average
+        public decimal average
         {
             get
             {
@@ -3060,7 +3060,7 @@ namespace Ibsys_GUI.Entity.Input
 
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string all
+        public decimal all
         {
             get
             {
@@ -3103,15 +3103,15 @@ namespace Ibsys_GUI.Entity.Input
     public partial class resultsResultMarketplacesaleProfit
     {
 
-        private string currentField;
+        private decimal currentField;
 
-        private string averageField;
+        private decimal averageField;
 
-        private string allField;
+        private decimal allField;
 
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string current
+        public decimal current
         {
             get
             {
@@ -3125,7 +3125,7 @@ namespace Ibsys_GUI.Entity.Input
 
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string average
+        public decimal average
         {
             get
             {
@@ -3139,7 +3139,7 @@ namespace Ibsys_GUI.Entity.Input
 
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string all
+        public decimal all
         {
             get
             {
@@ -3182,15 +3182,15 @@ namespace Ibsys_GUI.Entity.Input
     public partial class resultsResultSummaryProfit
     {
 
-        private string currentField;
+        private decimal currentField;
 
-        private string averageField;
+        private decimal averageField;
 
-        private string allField;
+        private decimal allField;
 
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string current
+        public decimal current
         {
             get
             {
@@ -3204,7 +3204,7 @@ namespace Ibsys_GUI.Entity.Input
 
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string average
+        public decimal average
         {
             get
             {
@@ -3218,7 +3218,7 @@ namespace Ibsys_GUI.Entity.Input
 
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string all
+        public decimal all
         {
             get
             {

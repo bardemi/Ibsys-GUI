@@ -119,7 +119,7 @@ namespace Ibsys_GUI.Entity.Output
     public partial class inputQualitycontrol
     {
 
-        private string typeField;
+        private decimal typeField;
 
         private byte losequantityField;
 
@@ -127,7 +127,7 @@ namespace Ibsys_GUI.Entity.Output
 
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string type
+        public decimal type
         {
             get
             {

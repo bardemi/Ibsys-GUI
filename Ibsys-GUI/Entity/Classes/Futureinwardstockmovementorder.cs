@@ -5,10 +5,10 @@ using System.Xml.Serialization;
 using System.Collections.Generic;
 using System.Globalization;
 
-namespace Ibsys2.Entity
+namespace Ibsys_GUI.Entity.Classes
 {
 	
-	public class Inwardstockmovementorder
+	public class Futureinwardstockmovementorder
 	{
 		// ATTRIBUTES
 		[XmlAttribute("orderperiod")]
@@ -26,27 +26,12 @@ namespace Ibsys2.Entity
 		[XmlAttribute("amount")]
 		public int amount  { get; set; }
 		
-		[XmlAttribute("time")]
-		public int time  { get; set; }
-		
-		[XmlAttribute("materialcosts")]
-		public decimal materialcosts  { get; set; }
-		
-		[XmlAttribute("ordercosts")]
-		public decimal ordercosts  { get; set; }
-		
-		[XmlAttribute("entirecosts")]
-		public decimal entirecosts  { get; set; }
-		
-		[XmlAttribute("piececosts")]
-		public decimal piececosts  { get; set; }
-		
 		// ELEMENTS
 		[XmlText]
 		public string Value { get; set; }
 		
 		// CONSTRUCTOR
-		public Inwardstockmovementorder()
+		public Futureinwardstockmovementorder()
 		{}
 	}
 }
